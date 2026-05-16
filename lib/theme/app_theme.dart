@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 const kColor1 = Color.fromARGB(255, 64, 29, 90);
-const kColor2 = Color.fromARGB(255, 65, 83, 122);
-const kColor3 = Color.fromARGB(255, 107, 100, 161);
-const kColor4 = Color(0xFFA786C6);
-const kColor5 = Color(0xFFE2A8E2);
+const kColor2 = Color.fromARGB(255, 85, 65, 198);
+const kColor3 = Color.fromARGB(255, 116, 106, 190);
+const kColor4 = Color.fromARGB(255, 166, 130, 200);
+const kColor5 = Color.fromARGB(255, 234, 147, 234);
 const kBg     = Color(0xFFF3EEF8);
 const kCard   = Colors.white;
 
@@ -25,7 +25,7 @@ class AppTheme {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: kColor3,
+            backgroundColor: const Color.fromARGB(255, 117, 106, 200),
             foregroundColor: Colors.white,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12)),
@@ -37,7 +37,7 @@ class AppTheme {
           fillColor: Colors.white,
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
-            borderSide: BorderSide(color: kColor5.withOpacity(0.6)),
+            borderSide: BorderSide(color: const Color.fromARGB(255, 220, 146, 220).withOpacity(0.6)),
           ),
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
